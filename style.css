@@ -1,0 +1,17 @@
+.btn-submit1 {
+  background-color: #28a745; /* สีเขียวสำหรับปุ่มบันทึก */
+  color: white;             /* สีตัวหนังสือ */
+  padding: 10px 20px;       /* ระยะห่างภายในปุ่ม */
+  border: none;             /* เอาเส้นขอบออก */
+  border-radius: 5px;       /* ทำให้มุมมน */
+  cursor: pointer;          /* เปลี่ยนรูปเมาส์เป็นรูปมือเมื่อชี้ */
+}
+
+.btn-submit2 {
+  background-color: #dc3545; /* สีแดงสำหรับปุ่มยกเลิก */
+  color: white;             /* สีตัวหนังสือ */
+  padding: 10px 20px;       /* ระยะห่างภายในปุ่ม */
+  border: none;             /* เอาเส้นขอบออก */
+  border-radius: 5px;       /* ทำให้มุมมน */
+  cursor: pointer;          /* เปลี่ยนรูปเมาส์เป็นรูปมือเมื่อชี้ */
+}
