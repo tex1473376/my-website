@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
 
     <h1>ระบบจัดการข้อมูลส่วนตัว</h1>
+
+    <!-- เพิ่มฟอร์มสำหรับกรอกข้อมูล -->
+    <div class="form-group">
+        <label for="nameInput">ชื่อ-นามสกุล:</label>
+        <input type="text" id="nameInput" placeholder="กรอกชื่อของคุณที่นี่">
+    </div>
+
     <button class="btn-submit1">บันทึก</button>
     <button class="btn-submit2">ยกเลิก</button>
 
-    
+    <!-- พื้นที่สำหรับแสดงผลข้อมูลที่บันทึก -->
+    <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
